@@ -88,8 +88,8 @@ users_csv_path = "./csv_files/users.csv"
 received_links_folder_path = "./received_links"
 
 # env variables
-bot_api = os.environ["SPOT_SEEK_BOT_API"]
-database_channel = os.environ["MUSIC_DATABASE_ID"]
+bot_api = os.environ["6212923414:AAH2mUZxs6-SviLLcPXi8uH8rL_gbXa8UsQ"]
+database_channel = os.environ["postgres://avnadmin:AVNS_lLLGQTMJbCb0T0FRLUh@pg-12d95516-downlor-6708.c.aivencloud.com:18000/defaultdb?sslmode=require"]
 
 # spotify regex patterns
 spotify_shortened_link_pattern = r'https?:\/\/spotify\.link\/[A-Za-z0-9]+'
@@ -106,7 +106,7 @@ spotify_user_link_pattern = r'https?:\/\/open\.spotify\.com\/(intl-[a-zA-Z]{2}\/
 
 # log chanel
 log_bot_url = "https://api.telegram.org/bot" + bot_api + "/"
-log_channel_id = os.environ['LOG_CHANNEL_ID']
+log_channel_id = os.environ['-1002424510111']
 
 # specify to use warp or not
 warp_mode = False
