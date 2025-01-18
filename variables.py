@@ -1,8 +1,8 @@
 import os
 
 # bot name
-bot_name = "Spot Seek Bot"
-bot_username = "@SpotSeekBot"
+bot_name = "Spotify DL Bot"
+bot_username = "@GdriveXRenderBot"
 
 # message for /start command
 welcome_message = '''Hi😃👋
@@ -109,7 +109,7 @@ log_bot_url = "https://api.telegram.org/bot" + bot_api + "/"
 log_channel_id = os.environ['LOG_CHANNEL_ID']
 
 # specify to use warp or not
-warp_mode = True
+warp_mode = False
 
 # percentage of playlist tracks to be downloaded (1 is all of them and 0 is none)
 playlist_download_rate = 1
@@ -119,8 +119,8 @@ playlist_download_rate = 1
 queue_handler_max_forwards_in_a_row = 10
 
 # promote channel
-promote_channel_username = "@Arashnm80_Channel"
-promote_channel_link = "https://t.me/Arashnm80_Channel"
+promote_channel_username = "@Spotify_Channel"
+promote_channel_link = "https://t.me/+ioJnsKp6vE5hZWI1"
 not_subscribed_to_channel_message = '''Your link is correct✅.
 Join to get access to database, then send your link again.'''
 
@@ -128,12 +128,8 @@ Join to get access to database, then send your link again.'''
 # template: a list of [spotify_client_id, spotify_client_secret]
 # start with only a single app and add to them as users count grows
 spotify_apps_list = [
-    ["spotify_client_id_1", "spotify_client_secret_1"],
-    ["spotify_client_id_2", "spotify_client_secret_2"],
-    ["spotify_client_id_3", "spotify_client_secret_3"],
-    ["spotify_client_id_4", "spotify_client_secret_4"],
-    ["spotify_client_id_5", "spotify_client_secret_5"]
-]
+    ["099a24864665461e9688887ec4046b5b", "102ce5539905477db826acf3bf948ed2"],
+    ]
 
 # spotdl
 spotdl_cache_path = "/root/.spotdl"
